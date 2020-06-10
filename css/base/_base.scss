@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.linea {
+  margin: auto;
+}
+
+.content {
+  padding: 2%;
+}
+
+.content h1 {
+  margin-bottom: 3%;
+}
+
+.cajas {
+  display: flex;
+  padding: 0px;
+}
+
+@media only screen and (max-width: 650px) {
+  .cajas {
+    display: inline;
+  }
+}

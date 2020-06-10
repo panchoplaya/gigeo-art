@@ -1,0 +1,78 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+.navbar-brand {
+  display: flex !important;
+}
+
+.logo {
+  color: black !important;
+  font-size: x-large;
+}
+
+.bajada {
+  color: grey !important;
+  font-size: x-small;
+  padding-left: 3px;
+}
+
+nav {
+  background-color: white;
+  color: black;
+}
+
+header {
+  background-image: url(../images/image-banner.png);
+  background-position: center;
+  padding-top: 30%;
+}
+
+@media only screen and (max-width: 990px) {
+  header {
+    padding-top: 45%;
+    background-size: cover;
+  }
+}
+
+.navbar-brand p {
+  color: black;
+  font-weight: 600;
+}
+
+.nav-link {
+  color: black;
+}
+
+.profile {
+  display: flex;
+  padding: 1%;
+}
+
+.datospersonales {
+  padding: 10px;
+  display: flex;
+}
+
+.datospersonales img {
+  height: 70px;
+  width: 70px;
+  border-radius: 150px;
+}
+
+.name {
+  margin: auto;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.name h1 {
+  font-size: small;
+  font-weight: 800;
+  color: black;
+}
+
+.name p {
+  color: grey;
+  font-size: x-small;
+}

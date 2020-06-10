@@ -1,0 +1,40 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.botones {
+  position: absolute;
+  display: flex;
+  text-align: center;
+  right: 0;
+  padding-top: 10px;
+}
+
+.boton-mensaje {
+  background-color: lightblue;
+  color: white;
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.boton-seguir {
+  background-color: indianred;
+  color: white;
+  height: 50px;
+  width: 150px;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+@media only screen and (max-width: 650px) {
+  .botones {
+    visibility: hidden;
+  }
+}
+
+.nav-item {
+  text-align: center;
+  margin: 10px;
+}
